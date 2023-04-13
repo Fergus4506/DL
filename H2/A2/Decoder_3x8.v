@@ -1,6 +1,7 @@
-module Decoder_3x8_t;
-    input x,y,z;
-    output [7:0] D;
+module Decoder_3x8_t(
+        input x,y,z;
+        output [7:0] D
+    );
 
     assign D[0]=((!x)&&(!y)&&(!z)),
     D[1]=((!x)&&(!y)&&(z)),
