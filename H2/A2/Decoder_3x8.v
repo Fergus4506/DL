@@ -1,5 +1,5 @@
 module Decoder_3x8_t(
-        input x,y,z;
+        input x,y,z,
         output [7:0] D
     );
 
