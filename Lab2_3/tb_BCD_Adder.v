@@ -21,7 +21,8 @@ initial begin
 		#20 A = 4'b0100;
 		        B = 4'b0100;
 		#20 A = 4'b0101;
-		        B = 4'b0101;	 
+		        B = 4'b0101;	
+		 
 	end
 	initial #150 $finish;
 endmodule

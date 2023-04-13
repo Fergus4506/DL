@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/H2/A1/Mul_4x3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module ripple_carry_4_bit_adder
+INFO: [VRFC 10-311] analyzing module Mul_4x3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/H2/A1/tb_Mul_4x3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Mul_4x3

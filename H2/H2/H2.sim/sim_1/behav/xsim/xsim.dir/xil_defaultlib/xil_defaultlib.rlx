@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/DL/H2/A1/Mul_4x3.v,1681374569,verilog,,D:/DL/H2/A1/tb_Mul_4x3.v,,Mul_4x3;full_adder;half_adder;ripple_carry_4_bit_adder,,,,,,,,
+D:/DL/H2/A1/tb_Mul_4x3.v,1681356404,verilog,,,,tb_Mul_4x3,,,,,,,,
+D:/DL/H2/H2/H2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
