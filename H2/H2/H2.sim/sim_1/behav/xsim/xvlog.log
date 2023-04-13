@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/H2/A2/Decoder_3x8.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Decoder_3x8
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/H2/A2/Decoder_3x8_t.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Decoder_3x8_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/H2/A4/mux_8x1_beh.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/H2/A4/tb_mux_8x1_beh.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_8x1_tb

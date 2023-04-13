@@ -1,5 +1,6 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
+"../../../../../A2_and_A3/Decoder_3x8.v" \
 "../../../../../A1/Mul_4x3.v" \
 "../../../../../A1/tb_Mul_4x3.v" \
 
