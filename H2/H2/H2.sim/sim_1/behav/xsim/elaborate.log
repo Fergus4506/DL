@@ -1,6 +1,6 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 859d59f8409a4e59aec9ba1dce0e6817 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MUX_8x1_tb_behav xil_defaultlib.MUX_8x1_tb xil_defaultlib.glbl -log elaborate.log 
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 859d59f8409a4e59aec9ba1dce0e6817 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Decoder_3x8_t_behav xil_defaultlib.Decoder_3x8_t xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -10,7 +10,7 @@ WARNING: [XSIM 43-4100] "D:/DL/H2/H2/H2.sim/sim_1/behav/xsim/glbl.v" Line 6. Mod
 WARNING: [XSIM 43-4100] "D:/DL/H2/H2/H2.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.MUX_8x1
-Compiling module xil_defaultlib.MUX_8x1_tb
+Compiling module xil_defaultlib.Decoder_3x8
+Compiling module xil_defaultlib.Decoder_3x8_t
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot MUX_8x1_tb_behav
+Built simulation snapshot Decoder_3x8_t_behav
