@@ -3,7 +3,7 @@ module Decoder_3x8(
         output [7:0] D
     );
 
-    wire [2:0] D0_wire,D1_wire;
+    wire [2:0] D0_wire;
 
     
 
