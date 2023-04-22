@@ -1,5 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/Full_adder.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module h_adder
-INFO: [VRFC 10-311] analyzing module Full_adder
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/t_Full_adder.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module t_Full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/D_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/t_D_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_D_ff
