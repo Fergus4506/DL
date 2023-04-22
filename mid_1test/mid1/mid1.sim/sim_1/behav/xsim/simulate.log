@@ -1,3 +1,3 @@
 Vivado Simulator 2020.2
 Time resolution is 1 ps
-$finish called at time : 40 ns : File "D:/DL/mid_1test/t_bit_4_addsub.v" Line 54
+$finish called at time : 200 ns : File "D:/DL/mid_1test/t_Mux_3x2.v" Line 16

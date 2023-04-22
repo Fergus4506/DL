@@ -3,7 +3,7 @@ module t_Mux_3x2;
     reg [2:0]B;
     wire [3:0]S;
 
-    Mux_3x2 uut(S,A,B);
+    Mul_3x2 uut(S,A,B);
 
     initial begin 
         A=2'b00;
@@ -13,5 +13,5 @@ module t_Mux_3x2;
             #25 B=B+3'b001;
         end 
     end
-    initial #200 $finish
+    initial #200 $finish;
 endmodule

@@ -1,9 +1,9 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/Full_adder.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module h_adder
 INFO: [VRFC 10-311] analyzing module Full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/Mux_3x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3x2
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/bit_4_addsub.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module half_adder
-INFO: [VRFC 10-311] analyzing module full_adder
-INFO: [VRFC 10-311] analyzing module addsub
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/t_bit_4_addsub.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module tb_addsub
+INFO: [VRFC 10-311] analyzing module bit_4_addsub
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/t_Mux_3x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_Mux_3x2
