@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/PriorityEncoder.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module PriorityEncoder
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/t_PriorityEncoder.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module t_PriorityEncoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/MUX_WTF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_WTF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/t_MUX_WTF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_MUX_WTF
