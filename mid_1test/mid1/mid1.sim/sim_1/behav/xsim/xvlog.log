@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/compare.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module compare
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/t_compare.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module t_compare
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/E_Decoder_2x4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module E_Decoder_2x4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/mid_1test/t_E_Decoder_2x4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_E_Decoder_2x4
