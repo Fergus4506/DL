@@ -1,13 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
 "../../../../../Full_adder.v" \
-"../../../../../D_ff.v" \
-"../../../../../Mux_3x2.v" \
-"../../../../../bit_2_adder.v" \
 "../../../../../bit_4_addsub.v" \
-"../../../../../t_D_ff.v" \
-"../../../../../t_Full_adder.v" \
-"../../../../../t_bit_2_adder.v" \
 "../../../../../t_bit_4_addsub.v" \
 
 # compile glbl module
