@@ -1,5 +1,5 @@
 module t_JK_flip_flop;
-  wire 	Q, Q_not;
+  wire 	Q_1, Q_1_not,Q_2, Q_2_not;
   reg	J, K, Clk, RST_B;
 
   JK_flip_flop_1  M1 (Q_1, Q_1_not, J, K, Clk, RST_B);
