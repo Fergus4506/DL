@@ -1,9 +1,3 @@
 Vivado Simulator 2020.2
 Time resolution is 1 ps
-ha ha hia
-                   00000    0010    0100    0
-                  300000    1010    0100    1
-                  601010    1010    0100    1
-                  901100    1010    1010    0
-                 1201101    1010    0101    1
-$finish called at time : 150 ns : File "D:/DL/mid_1test/t_MUX_WTF.v" Line 20
+$finish called at time : 150 ns : File "D:/DL/mid_1test/t_Full_adder.v" Line 24

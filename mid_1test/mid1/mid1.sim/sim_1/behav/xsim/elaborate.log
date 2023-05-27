@@ -1,6 +1,6 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a0a9665bd24244f1b279d43b99e89972 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot t_MUX_WTF_behav xil_defaultlib.t_MUX_WTF xil_defaultlib.glbl -log elaborate.log 
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a0a9665bd24244f1b279d43b99e89972 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot t_Full_adder_behav xil_defaultlib.t_Full_adder xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -10,7 +10,8 @@ WARNING: [XSIM 43-4100] "D:/DL/mid_1test/mid1/mid1.sim/sim_1/behav/xsim/glbl.v" 
 WARNING: [XSIM 43-4100] "D:/DL/mid_1test/mid1/mid1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.MUX_WTF
-Compiling module xil_defaultlib.t_MUX_WTF
+Compiling module xil_defaultlib.h_adder
+Compiling module xil_defaultlib.Full_adder
+Compiling module xil_defaultlib.t_Full_adder
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot t_MUX_WTF_behav
+Built simulation snapshot t_Full_adder_behav

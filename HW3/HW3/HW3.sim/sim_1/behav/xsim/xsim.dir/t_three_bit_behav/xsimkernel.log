@@ -1,0 +1,7 @@
+Running: xsim.dir/t_three_bit_behav/xsimk.exe -simmode gui -wdb t_three_bit_behav.wdb -simrunnum 0 -socket 5856
+Design successfully loaded
+Design Loading Memory Usage: 6092 KB (Peak: 6092 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 6692 KB (Peak: 6692 KB)
+Simulation CPU Usage: 30 ms
