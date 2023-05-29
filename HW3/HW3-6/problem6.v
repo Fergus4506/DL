@@ -2,8 +2,8 @@ module problem6(
         input x_in,reset,clock,
         output y_out
     );
-    reg[2:0]state,y_out;
-    parameter S0=2'b00,S1=2'b01,S2=2'b10,S3=2'b11,g=3'b100;
+    reg[1:0]state;
+    parameter S0=2'b00,S1=2'b01,S2=2'b10,S3=2'b11;
     always@(posedge clock,negedge reset)
         if(reset==0)state<=S0;
         else case(state)

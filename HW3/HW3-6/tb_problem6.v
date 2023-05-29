@@ -19,5 +19,6 @@ module tb_problem6;
         #120 x=0;
         #150 x=1;
         #160 x=0;    
+        #190 x=1;
     join
 endmodule

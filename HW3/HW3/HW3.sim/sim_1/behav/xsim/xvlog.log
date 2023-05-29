@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/HW3/HW3-6/problem6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module problem6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DL/HW3/HW3-6/tb_problem6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_problem6
