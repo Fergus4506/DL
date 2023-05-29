@@ -1,9 +1,16 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto df54cdb343bb47c8b78973d969afb210 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_problem5_behav xil_defaultlib.tb_problem5 xil_defaultlib.glbl -log elaborate.log 
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto df54cdb343bb47c8b78973d969afb210 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_problem1_behav xil_defaultlib.tb_problem1 xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'y_out' [D:/DL/HW3/HW3-5/tb_problem5.v:5]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/DL/HW3/HW3/HW3.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/DL/HW3/HW3/HW3.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.problem1
+Compiling module xil_defaultlib.tb_problem1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_problem1_behav
