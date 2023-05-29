@@ -1,0 +1,4 @@
+*.sim
+*.hw
+*.cache
+*.ip

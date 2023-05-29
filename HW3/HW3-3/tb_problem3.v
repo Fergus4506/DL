@@ -8,17 +8,21 @@ module tb_problem3;
         .clock(clock)
     );
     initial #200 $finish;
-    always #10 clock=~clock;
+    always #5 clock=~clock;
     initial begin
-        reset=1;
-        x=0;
-        clock=0;
-        repeat(1) begin
-            #20 reset=~reset;
-        end
-        #15 reset=1;
-        repeat(6) begin
-            #20 x=~x;
-        end
-    end
+		#0 clock=0;
+		   reset=0;
+		#10 reset=1;
+			x=0;
+		#10 x=1;	
+		#10 x=0;	
+		#10 x=1;	
+		#10 x=0;	
+		#10 x=0;	
+		#10 x=1;	
+		#10 x=0;	
+		#10 x=1;	
+		#10 x=1;	
+		#10 x=1;	
+	end
 endmodule

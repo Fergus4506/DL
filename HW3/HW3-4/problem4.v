@@ -12,5 +12,5 @@ module problem4(
             S2:if(x_in)  state<=S1;else state<=S3;
             S3:if(x_in)  state<=S1;else state<=S2;
         endcase
-        assign y_out=((~state[1])&x_in)|(~state[0]);
+    assign y_out=((~state[1])&x_in)|(~state[0]);
 endmodule
