@@ -11,7 +11,6 @@ module problem3(
             b:if(x_in) begin state<=d; y_out=0; end else begin state<=a; y_out=0; end
             d:if(x_in) begin state<=g; y_out=1; end else begin state<=a; y_out=0; end
             f:if(x_in) begin state<=f; y_out=1; end else begin state<=b; y_out=1; end
-            g:if(x_in) begin state<=g; y_out=0; end else begin state<=d; y_out=1; end
-            
+            g:if(x_in) begin state<=g; y_out=0; end else begin state<=d; y_out=1; end  
         endcase
 endmodule
