@@ -1,6 +1,11 @@
-module problem2(reset,clk);
+module problem2(Q1,Q2,Q4,Q8,reset,clk);
     input reset,clk;
+    output Q1,Q2,Q4,Q8;
     reg [3:0]state;
+    assign Q1=state[0],
+           Q2=state[1],
+           Q4=state[2],
+           Q8=state[3];
     always@(posedge clk,negedge reset)
         if(~reset)state<=4'b0000;
         else case(state)
