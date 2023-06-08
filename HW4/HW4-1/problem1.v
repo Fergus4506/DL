@@ -1,6 +1,6 @@
-module problem1(A,B,in_B,control,reset,clk);
-    input [3:0]A;
-    input [3:0]B;
+module problem1(in_B,control,reset,clk);
+    // input [3:0]A;
+    // input [3:0]B;
     input in_B;
     input reset,clk,control;
     reg [3:0]t_A,t_B;
