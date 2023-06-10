@@ -1,15 +1,15 @@
-module problem5(Q,clk,reset);
-    output [7:0]Q;
+module problem5(clk,reset);
+    // output [7:0]Q;
     input clk,reset;
     reg [3:0]state;
-    assign Q[0]=(~state[3])&(~state[0]),
-           Q[1]=(state[3])&(~state[2]),
-           Q[2]=(state[2])&(~state[1]),
-           Q[3]=(state[1])&(~state[0]),
-           Q[4]=(state[3])&(state[0]),
-           Q[5]=(state[2])&(~state[3]),
-           Q[6]=(state[1])&(~state[2]),
-           Q[7]=(state[0])&(~state[1]);
+    // assign Q[0]=(~state[3])&(~state[0]),
+    //        Q[1]=(state[3])&(~state[2]),
+    //        Q[2]=(state[2])&(~state[1]),
+    //        Q[3]=(state[1])&(~state[0]),
+    //        Q[4]=(state[3])&(state[0]),
+    //        Q[5]=(state[2])&(~state[3]),
+    //        Q[6]=(state[1])&(~state[2]),
+    //        Q[7]=(state[0])&(~state[1]);
     always@(posedge clk,negedge reset)
         if(~reset)state<=4'b0000;
         else case(state)

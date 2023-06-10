@@ -1,7 +1,7 @@
 module tb_problem5;
-    wire [7:0]Q;
+    // wire [7:0]Q;
     reg clk,reset;
-    problem5 uut(Q,clk,reset);
+    problem5 uut(clk,reset);
     initial #200 $finish;
     always #10 clk=~clk;
     initial fork
